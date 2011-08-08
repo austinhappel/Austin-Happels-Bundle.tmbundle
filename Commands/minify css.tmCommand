@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>saveActiveFile</string>
+	<key>command</key>
+	<string>echo -e "Using YUI Compressor to minify your css
+
+x="$TM_FILEPATH"
+x=${x%.*}
+newFile="${x}-min.css"
+
+java -jar ~/scripts/yuicompressor-2.4.6.jar -v -o $newFile $TM_FILEPATH</string>
+	<key>input</key>
+	<string>document</string>
+	<key>keyEquivalent</key>
+	<string>~@M</string>
+	<key>name</key>
+	<string>minify css</string>
+	<key>output</key>
+	<string>showAsHTML</string>
+	<key>uuid</key>
+	<string>F3091FFF-6E32-4E01-B38E-0F6752A17F60</string>
+</dict>
+</plist>

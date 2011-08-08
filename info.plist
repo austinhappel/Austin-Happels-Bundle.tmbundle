@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Austin Happel’s Bundle</string>
+	<key>ordering</key>
+	<array>
+		<string>9E362182-6CAE-497E-8146-1977208F4185</string>
+		<string>6D997009-ACFF-409D-A6A5-D74FBB852B97</string>
+		<string>F3091FFF-6E32-4E01-B38E-0F6752A17F60</string>
+	</array>
+	<key>uuid</key>
+	<string>E1B74D15-D6FA-4139-93F9-4504B735835F</string>
+</dict>
+</plist>
