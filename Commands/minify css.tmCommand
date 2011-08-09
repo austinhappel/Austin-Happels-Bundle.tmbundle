@@ -5,7 +5,7 @@
 	<key>beforeRunningCommand</key>
 	<string>saveActiveFile</string>
 	<key>command</key>
-	<string>echo -e "Using YUI Compressor to minify your css
+	<string>echo 'Using YUI Compressor to minify your CSS&lt;br&gt;---------------------------------------&lt;br&gt;&lt;br&gt;'
 
 x="$TM_FILEPATH"
 x=${x%.*}

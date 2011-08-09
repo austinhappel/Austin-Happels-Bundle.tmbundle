@@ -11,7 +11,7 @@ x="$TM_FILEPATH"
 x=${x%.*}
 newFile="${x}-min.js"
 
-java -jar ~/scripts/yuicompressor-2.4.6.jar -v -o $newFile $TM_FILEPATH
+java -jar ~/scripts/yuicompressor-2.4.6.jar -v --nomunge -o $newFile $TM_FILEPATH
 </string>
 	<key>input</key>
 	<string>document</string>
