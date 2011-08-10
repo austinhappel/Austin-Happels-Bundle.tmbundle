@@ -10,8 +10,8 @@
 x="$TM_FILEPATH"
 x=${x%.*}
 newFile="${x}-min.css"
-
-java -jar ~/scripts/yuicompressor-2.4.6.jar -v -o $newFile $TM_FILEPATH</string>
+command="java -jar ~/scripts/yuicompressor-2.4.6.jar -v -o '${newFile}' '$TM_FILEPATH'"
+eval $command</string>
 	<key>input</key>
 	<string>document</string>
 	<key>keyEquivalent</key>
