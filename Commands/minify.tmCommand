@@ -5,7 +5,7 @@
 	<key>beforeRunningCommand</key>
 	<string>saveActiveFile</string>
 	<key>command</key>
-	<string>echo 'Using YUI Compressor to minify your JS&lt;br&gt;---------------------------------------&lt;br&gt;&lt;br&gt;'
+	<string>echo 'Using YUI Compressor to minify your JS without munging&lt;br&gt;---------------------------------------&lt;br&gt;&lt;br&gt;'
 
 x="$TM_FILEPATH"
 x=${x%.*}
@@ -18,7 +18,7 @@ eval $command
 	<key>input</key>
 	<string>document</string>
 	<key>keyEquivalent</key>
-	<string>@M</string>
+	<string>~@M</string>
 	<key>name</key>
 	<string>minify js --nomunge</string>
 	<key>output</key>
