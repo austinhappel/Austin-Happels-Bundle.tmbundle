@@ -5,20 +5,22 @@
 	<key>beforeRunningCommand</key>
 	<string>saveActiveFile</string>
 	<key>command</key>
-	<string>echo 'Using YUI Compressor to minify your JS&lt;br&gt;---------------------------------------&lt;br&gt;&lt;br&gt;'
+	<string>echo 'Using YUI Compressor to minify your JS without munging&lt;br&gt;---------------------------------------&lt;br&gt;&lt;br&gt;'
 
 x="$TM_FILEPATH"
 x=${x%.*}
 newFile="${x}-min.js"
+path="$TM_BUNDLE_SUPPORT/yuicompressor/yuicompressor-2.4.6.jar"
 
-java -jar ~/scripts/yuicompressor-2.4.6.jar -v --nomunge -o $newFile $TM_FILEPATH
+command="java -jar '${path}' -v --nomunge -o '${newFile}' '$TM_FILEPATH'"
+eval $command
 </string>
 	<key>input</key>
 	<string>document</string>
 	<key>keyEquivalent</key>
-	<string>@M</string>
+	<string>~@M</string>
 	<key>name</key>
-	<string>minify js</string>
+	<string>minify js --nomunge</string>
 	<key>output</key>
 	<string>showAsHTML</string>
 	<key>uuid</key>
