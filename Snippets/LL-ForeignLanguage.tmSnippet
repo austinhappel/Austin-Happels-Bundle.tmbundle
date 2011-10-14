@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;strong class="foreign-language"&gt;$TM_SELECTED_TEXT&lt;/strong&gt;</string>
+	<key>keyEquivalent</key>
+	<string>@B</string>
+	<key>name</key>
+	<string>LL-ForeignLanguage</string>
+	<key>uuid</key>
+	<string>B6F939F4-9FA9-4742-8905-902D16F13498</string>
+</dict>
+</plist>
